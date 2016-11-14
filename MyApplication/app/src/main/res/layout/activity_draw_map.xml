@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <fragment
+        android:id="@+id/activity_draw_map_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:name="com.google.android.gms.maps.SupportMapFragment"/>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+
+        <Button
+            android:id="@+id/activity_draw_map_btnDraw_driving"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            style="@style/Widget.AppCompat.Button"
+            android:background="@drawable/border_bottom_clicked"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/car"
+            android:paddingTop="10dp" />
+
+        <Button
+            android:id="@+id/activity_draw_map_btnDraw_walking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:background="@drawable/border_bottom_clicked"
+            android:drawableTop="@mipmap/person"
+            android:paddingTop="10dp" />
+
+        <Button
+            android:id="@+id/activity_draw_map_btnDraw_bus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:background="@drawable/border_bottom_clicked"
+            android:drawableTop="@mipmap/bus"
+            android:paddingTop="10dp" />
+    </LinearLayout>
+
+</RelativeLayout>

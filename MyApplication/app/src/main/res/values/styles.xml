@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CustomDialogActivity" parent="Base.Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+
+    <style name="textHeaderBackground">
+        <item name="android:background">@drawable/text_background</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="Widget.Group" parent="@android:style/Widget">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">46dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginTop">-1dp</item> <!-- Ensures we don't get a 2 dp top stroke -->
+        <item name="android:padding">4dp</item>
+        <!--<item name="android:background">@drawable/bg_input_group</item>-->
+    </style>
+
+    <style name="Widget.Group.Top">
+        <item name="android:layout_marginTop">10dp</item>
+        <!--<item name="android:background">@drawable/bg_input_group_top</item>-->
+    </style>
+
+    <style name="Widget.Group.Bottom">
+
+        <item name="android:layout_marginTop">20dp</item>
+        <!--<item name="android:background">@drawable/bg_input_group_bottom</item>-->
+    </style>
+
+    <style name="Widget.Group.Single" parent="Widget.Group.Top">
+        <!--<item name="android:background">@drawable/bg_input_group_single</item>-->
+    </style>
+
+</resources>

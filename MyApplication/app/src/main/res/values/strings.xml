@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Testy</string>
+    <string name="why_joined_header">Cluj-Napoca</string>
+
+    <string name="major_intro">Adresa: %1$s</string>
+    <string name="fun_fact">Fun fact: %1$s</string>
+    <string name="crossed_semester_intro">Data inaugurarii: %1$s</string>
+
+    <string name="show_location_name">Location: %1$s</string>
+
+    <string name="intro_header">Evenimente</string>
+    <string name="intro_body">Evenimente curente in Cluj-Napoca</string>
+    
+    <string name="follow_us">Follow Us on Social Media</string>
+    <string name="rush_intro">What is Rush?</string>
+    <string name="rush_explained">Rush is recruitment</string>
+    <string name="rush_events">Actual Rush Event</string>
+    
+    <string name="str_btn_draw">Draw Route</string>
+
+    <string name="location_permission_denied">Location Permission Denied</string>
+    <string name="permission_required_toast">Location Permission Request</string>
+    <string name="permission_rationale_location">Location Permission Rationale</string>
+</resources>
